@@ -66,4 +66,20 @@ git push -u origin ブランチ名
 コンフリクトの解消方法の参考になる
 https://qiita.com/hkengo/items/f47b9f50ac2dca407d12
 
+### 親ブランチにmergeする方法
+```
+git checkout develop
+git merge ブランチ名
+```
 
+### git add の取り消し
+```
+git reset HEAD <filename>
+```
+<filename>を入力しなければすべてのファイル
+
+### ローカルでごちゃごちゃしたけど元に戻したいとき
+```
+git checkout <filename>
+```
+<filename>を入力しなければすべてのファイル
